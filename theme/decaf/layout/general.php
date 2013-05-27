@@ -110,7 +110,7 @@ if (empty($PAGE->layout_options['noawesomebar'])) { ?>
     <div id="page-header">
 		<div id="page-header-wrapper">
 			<div id="page-header-home-logo">
-				<a id="imagelink" href="http://localhost/max24"><img src="<?php echo $this->pix_url('maxs_home_logo', 'theme'); ?>" alt="" id="maxslogo" /></a>
+				<a id="imagelink" href="http://localhost/maxscorp"><img src="<?php echo $this->pix_url('maxs_home_logo', 'theme'); ?>" alt="" id="maxslogo" /></a>
 			</div>
 	        <?php if ($hasheading) { ?>	
 		    	<h1 class="headermain"><?php echo $PAGE->heading ?></h1>
