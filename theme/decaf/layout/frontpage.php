@@ -102,7 +102,9 @@ if (empty($PAGE->layout_options['noawesomebar'])) {  ?>
    
     <div id="page-header" class="clearfix">
 		<div id="page-header-wrapper">
-			<a href="http://localhost/max24"><img src="<?php echo $this->pix_url('maxs_home_logo', 'theme'); ?>" alt="" id="maxslogo" /></a>
+			<div id="page-header-home-logo">
+			<a href="http://localhost/maxscorp"><img src="<?php echo $this->pix_url('maxs_home_logo', 'theme'); ?>" alt="" id="maxslogo" /></a>
+			</div>
 	        <h1 class="headermain"><?php echo $PAGE->heading ?></h1>
     	    <div class="headermenu">
         		<?php
